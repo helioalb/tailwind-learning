@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-learning",
+  "version": "1.0.0",
+  "description": "Tailwind Learning",
+  "main": "index.js",
+  "repository": "git@github.com:helioalb/tailwind-learning.git",
+  "author": "Helio Albano de Oliveira <helioalb@gmail.com>",
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
+  }
+}
